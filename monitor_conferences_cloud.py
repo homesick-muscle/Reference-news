@@ -367,8 +367,15 @@ def monitor(dry_run: bool, bootstrap: bool) -> int:
         conference = conference_map[conference_name]
         if result["changed"]:
             events.append(build_event(conference, result["changed"], "检测到官方页面内容变化", now_local))
-        if result["failed"]:
-            events.append(build_event(conference, result["failed"], "检测到官方页面访问异常", now_local))
+
+    failed_pages = {
+        conference_name: result["failed"]
+        for conference_name, result in conference_results.items()
+        if result["failed"]
+    }
+    if failed_pages:
+        for conference_name, labels in failed_pages.items():
+            print(f"[warn] 页面访问异常已忽略，不发送提醒: {conference_name} -> {', '.join(labels)}", file=sys.stderr)
 
     prefix = "【新资讯】"
     if not events:
