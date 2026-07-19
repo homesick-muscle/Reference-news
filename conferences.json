@@ -1,0 +1,319 @@
+{
+  "timezone": "Asia/Shanghai",
+  "conferences": [
+    {
+      "name": "WAIC 2026",
+      "main_url": "https://www.worldaic.com.cn/",
+      "monitor_pages": [
+        {
+          "label": "官网首页",
+          "url": "https://www.worldaic.com.cn/"
+        },
+        {
+          "label": "报名页",
+          "url": "https://www.worldaic.com.cn/register"
+        }
+      ],
+      "venue_display": "中国上海",
+      "price_display": "待核实",
+      "registration_open_date": null,
+      "registration_open_display": "已开放",
+      "meeting_start_date": "2026-07-17",
+      "meeting_start_display": "2026-07-17",
+      "meeting_end_date": "2026-07-20",
+      "registration_deadline": null,
+      "deadline_display": "以官网最新安排为准"
+    },
+    {
+      "name": "WAICA 2026",
+      "main_url": "https://waica2026.worldaic.com.cn/",
+      "monitor_pages": [
+        {
+          "label": "官网首页",
+          "url": "https://waica2026.worldaic.com.cn/"
+        },
+        {
+          "label": "注册页",
+          "url": "https://waica2026.worldaic.com.cn/registration/"
+        },
+        {
+          "label": "参会指南",
+          "url": "https://waica2026.worldaic.com.cn/participant-guide/"
+        }
+      ],
+      "venue_display": "中国上海",
+      "price_display": "普通代表 ¥4000；学生 ¥2000；Workshop Pass ¥2500",
+      "registration_open_date": null,
+      "registration_open_display": "已开放",
+      "meeting_start_date": "2026-07-18",
+      "meeting_start_display": "2026-07-18",
+      "meeting_end_date": "2026-07-20",
+      "registration_deadline": null,
+      "deadline_display": "以官网最新安排为准"
+    },
+    {
+      "name": "NeurIPS 2026",
+      "main_url": "https://neurips.cc/Conferences/2026",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://neurips.cc/Conferences/2026"
+        },
+        {
+          "label": "日期页",
+          "url": "https://neurips.cc/Conferences/2026/Dates"
+        },
+        {
+          "label": "注册页",
+          "url": "https://nips.cc/Register/view-registration"
+        }
+      ],
+      "venue_display": "澳大利亚悉尼；卫星点：巴黎、亚特兰大",
+      "price_display": "待公布",
+      "registration_open_date": "2026-07-20",
+      "registration_open_display": "2026-07-20",
+      "meeting_start_date": "2026-12-06",
+      "meeting_start_display": "2026-12-06",
+      "meeting_end_date": "2026-12-12",
+      "registration_deadline": null,
+      "deadline_display": "以官网最新安排为准"
+    },
+    {
+      "name": "KDD 2026",
+      "main_url": "https://kdd2026.kdd.org/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://kdd2026.kdd.org/"
+        },
+        {
+          "label": "注册页",
+          "url": "https://kdd2026.kdd.org/registration/"
+        }
+      ],
+      "venue_display": "韩国济州 ICC Jeju",
+      "price_display": "学生 USD 600；会员 USD 1250；非会员 USD 1500；单日票 USD 600",
+      "registration_open_date": null,
+      "registration_open_display": "已开放",
+      "meeting_start_date": "2026-08-09",
+      "meeting_start_display": "2026-08-09",
+      "meeting_end_date": "2026-08-13",
+      "registration_deadline": "2026-08-08",
+      "deadline_display": "Standard 截止 2026-08-08"
+    },
+    {
+      "name": "AAAI-27",
+      "main_url": "https://aaai.org/conference/aaai/aaai-27/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://aaai.org/conference/aaai/aaai-27/"
+        }
+      ],
+      "venue_display": "加拿大蒙特利尔",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": "2027-02-16",
+      "meeting_start_display": "2027-02-16",
+      "meeting_end_date": "2027-02-23",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "ICML 2027",
+      "main_url": "https://icml.cc/Conferences/FutureMeetings",
+      "monitor_pages": [
+        {
+          "label": "Future Meetings",
+          "url": "https://icml.cc/Conferences/FutureMeetings"
+        }
+      ],
+      "venue_display": "待公布",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": null,
+      "meeting_start_display": "待公布（官方称 2027 年 8 月公告）",
+      "meeting_end_date": null,
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "ICDM 2026",
+      "main_url": "https://icdm2026.neu.edu.cn/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://icdm2026.neu.edu.cn/"
+        },
+        {
+          "label": "参会页",
+          "url": "https://icdm2026.neu.edu.cn/11683/list.htm"
+        }
+      ],
+      "venue_display": "中国沈阳",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": "2026-11-12",
+      "meeting_start_display": "2026-11-12",
+      "meeting_end_date": "2026-11-15",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "CVPR 2027",
+      "main_url": "https://cvpr.thecvf.com/",
+      "monitor_pages": [
+        {
+          "label": "CVF Future Meetings",
+          "url": "https://www.thecvf.com/?page_id=100"
+        },
+        {
+          "label": "CVPR 站点",
+          "url": "https://cvpr.thecvf.com/"
+        }
+      ],
+      "venue_display": "美国西雅图 Seattle Convention Center",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": "2027-06-20",
+      "meeting_start_display": "2027-06-20",
+      "meeting_end_date": "2027-06-24",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "ICCV 2027",
+      "main_url": "https://iccv.thecvf.com/",
+      "monitor_pages": [
+        {
+          "label": "CVF Future Meetings",
+          "url": "https://www.thecvf.com/?page_id=100"
+        },
+        {
+          "label": "ICCV 站点",
+          "url": "https://iccv.thecvf.com/"
+        }
+      ],
+      "venue_display": "中国香港",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": "2027-10-02",
+      "meeting_start_display": "2027-10-02",
+      "meeting_end_date": "2027-10-08",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "ECCV 2026",
+      "main_url": "https://eccv.ecva.net/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://eccv.ecva.net/"
+        },
+        {
+          "label": "日期页",
+          "url": "https://eccv.ecva.net/Conferences/2026/Dates"
+        },
+        {
+          "label": "注册页",
+          "url": "https://eccv.ecva.net/Conferences/2026/Registration"
+        }
+      ],
+      "venue_display": "瑞典马尔默 Malmö Arena and Malmömässan",
+      "price_display": "待公布",
+      "registration_open_date": "2026-06-17",
+      "registration_open_display": "2026-06-17",
+      "meeting_start_date": "2026-09-08",
+      "meeting_start_display": "2026-09-08",
+      "meeting_end_date": "2026-09-12",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "ICLR 2027",
+      "main_url": "https://iclr.cc/Conferences/FutureMeetings",
+      "monitor_pages": [
+        {
+          "label": "Future Meetings",
+          "url": "https://iclr.cc/Conferences/FutureMeetings"
+        }
+      ],
+      "venue_display": "北美西海岸",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": null,
+      "meeting_start_display": "待公布",
+      "meeting_end_date": null,
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "WWW 2027",
+      "main_url": "https://thewebconf.org/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://thewebconf.org/"
+        }
+      ],
+      "venue_display": "爱尔兰都柏林",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": null,
+      "meeting_start_display": "待公布",
+      "meeting_end_date": null,
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "SIGIR 2027",
+      "main_url": "https://sigir.org/",
+      "monitor_pages": [
+        {
+          "label": "学会主页",
+          "url": "https://sigir.org/"
+        }
+      ],
+      "venue_display": "美国硅谷",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": null,
+      "meeting_start_display": "待公布",
+      "meeting_end_date": null,
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    },
+    {
+      "name": "CIKM 2026",
+      "main_url": "https://cikm2026.diag.uniroma1.it/",
+      "monitor_pages": [
+        {
+          "label": "会议主页",
+          "url": "https://cikm2026.diag.uniroma1.it/"
+        },
+        {
+          "label": "注册页",
+          "url": "https://cikm2026.diag.uniroma1.it/registration/"
+        }
+      ],
+      "venue_display": "意大利罗马",
+      "price_display": "待公布",
+      "registration_open_date": null,
+      "registration_open_display": "待公布",
+      "meeting_start_date": "2026-11-07",
+      "meeting_start_display": "2026-11-07",
+      "meeting_end_date": "2026-11-11",
+      "registration_deadline": null,
+      "deadline_display": "待公布"
+    }
+  ]
+}
