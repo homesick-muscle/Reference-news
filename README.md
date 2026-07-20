@@ -16,9 +16,9 @@
 
 ## 运行逻辑
 
-- 每天北京时间 `09:07` 和 `19:07` 检查一次
+- 每天北京时间 `09:30` 和 `19:07` 检查一次
 - GitHub Actions 的 cron 用的是 `UTC`
-  - `01:07 UTC` = `09:07 Asia/Shanghai`
+  - `01:30 UTC` = `09:30 Asia/Shanghai`
   - `11:07 UTC` = `19:07 Asia/Shanghai`
 - 第一次运行只初始化 `state.json`，不发提醒
 - 后续运行：
