@@ -253,11 +253,35 @@ var CONFERENCES = [
 
 function setup() {
   removeTriggers_();
-  ScriptApp.newTrigger('runMonitor').timeBased().atHour(9).nearMinute(40).everyDays(1).inTimezone(TIMEZONE).create();
-  ScriptApp.newTrigger('runMonitor').timeBased().atHour(19).nearMinute(7).everyDays(1).inTimezone(TIMEZONE).create();
+  createDailyTrigger_('runMonitor', getScheduleHour_('MORNING_TRIGGER_HOUR', 10), getScheduleMinute_('MORNING_TRIGGER_MINUTE', 30));
+  createDailyTrigger_('runMonitor', getScheduleHour_('EVENING_TRIGGER_HOUR', 19), getScheduleMinute_('EVENING_TRIGGER_MINUTE', 7));
   if (!loadState_()) {
     saveState_({ pages: {} });
   }
+}
+
+function setupMinuteTest() {
+  removeTriggers_();
+  ScriptApp.newTrigger('runMonitor').timeBased().everyMinutes(1).create();
+  if (!loadState_()) {
+    saveState_({ pages: {} });
+  }
+}
+
+function createDailyTrigger_(handler, hour, minute) {
+  ScriptApp.newTrigger(handler).timeBased().atHour(hour).nearMinute(minute).everyDays(1).inTimezone(TIMEZONE).create();
+}
+
+function getScheduleHour_(propertyName, fallback) {
+  var value = PropertiesService.getScriptProperties().getProperty(propertyName);
+  var parsed = value ? parseInt(value, 10) : fallback;
+  return isNaN(parsed) ? fallback : parsed;
+}
+
+function getScheduleMinute_(propertyName, fallback) {
+  var value = PropertiesService.getScriptProperties().getProperty(propertyName);
+  var parsed = value ? parseInt(value, 10) : fallback;
+  return isNaN(parsed) ? fallback : parsed;
 }
 
 function removeTriggers_() {
@@ -298,7 +322,7 @@ function monitor_(dryRun) {
   var newPages = {};
   var timezone = TIMEZONE;
   var now = new Date();
-  var nowText = formatDate_(now, timezone, 'yyyy-MM-ddTHH:mm:ssZ');
+  var nowText = formatDate_(now, timezone, 'yyyy-MM-dd HH:mm:ss');
   var todayKey = formatDate_(now, timezone, 'yyyy-MM-dd');
 
   var conferenceResults = {};
@@ -409,6 +433,20 @@ function fetchPage_(url, keywords) {
     lineCount: String(lines.length),
     finalUrl: response.getFinalUrl ? response.getFinalUrl() : url,
     contentType: contentType
+  };
+}
+
+function makeStateEntry_(conferenceName, label, url, fetched, errorText) {
+  fetched = fetched || {};
+  return {
+    conference: conferenceName,
+    label: label,
+    url: url,
+    hash: fetched.hash || null,
+    relevantText: fetched.relevantText || '',
+    finalUrl: fetched.finalUrl || url,
+    contentType: fetched.contentType || '',
+    lastError: errorText || null
   };
 }
 
